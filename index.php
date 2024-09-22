@@ -70,11 +70,11 @@
             <h2 class="log_form_title">Вход в личный кабинет</h2>
             <div class="log_inf">
                 <label for="login" class="log_form_label">Логин</label><br>
-                <input type="text" name="login" class="log_form_data"><br>
+                <input type="text" name="login" class="log_form_data" required><br>
             </div>
             <div class="log_inf">
                 <label for="password" class="log_form_label">Пароль</label><br>
-                <input type="password" name="password" class="log_form_data"><br>
+                <input type="password" name="password" class="log_form_data" required><br>
             </div>
             <div class="checkbox_log_form">
                 <input type="checkbox" class="main_request_checkbox"><p>Запомнить меня</p>
@@ -89,6 +89,28 @@
                     <p class="reg_form_btn_hide_p">Регистрация</p>
                 </button>
             </div>
+        </form>
+    </div>
+    <div class="phone_form_hide">
+        <form action="" class="phone_form">
+            <img class="phone_form_close cursor" src="/res/images/__close.png" alt="close">
+            <h2 class="phone_form_title">Оставьте заявку</h2>
+            <p class="phone_form_undertitle">Мы вам перезвоним</p>
+            <div class="log_inf">
+                <label for="name" class="log_form_label">Ваше имя</label>
+                <input type="text" name="name" class="log_form_data" required>
+            </div>
+            <div class="log_inf">
+                <label for="phone" class="log_form_label">Телефон</label>
+                <input type="text" name="phone" class="log_form_data" required>
+            </div>
+            <div class="checkbox checkbox_form">
+                 <input type="checkbox" class="main_request_checkbox"><p>Согласен на обработку персональных данных</p>
+            </div>
+            <button class="form_btn_log btn_hover_log cursor">
+                <p class="btn_hide_p">Отправить</p>
+                <div class="log_form_btn_hide"></div>
+            </button>
         </form>
     </div>
     <header>

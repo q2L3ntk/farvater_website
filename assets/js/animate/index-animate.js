@@ -89,4 +89,17 @@ $(document).ready(function() {
         $(".reg_form_btn_hide").hide("fast")
         $(".reg_form_btn_hide_p").css("color", "blueviolet")
     })
+
+    $(".header_btn_start").click(function() {
+        $(".phone_form_hide").show("fast")
+        $("header").css("opacity", "0.5")
+        $("main").css("opacity", "0.5")
+        $("footer").css("opacity", "0.5")
+    })
+    $(".phone_form_close").click(function() {
+        $(".phone_form_hide").hide("fast")
+        $("header").css("opacity", "1")
+        $("main").css("opacity", "1")
+        $("footer").css("opacity", "1")
+    })
 })

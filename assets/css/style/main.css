@@ -247,6 +247,44 @@ a {
     border-radius: 5px;
 }
 
+.phone_form_hide {
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    padding-inline: 37.5%;
+    padding-top: 12%;
+    z-index: 1;
+}
+
+.phone_form {
+    background-color: white;
+    padding-inline: 30px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 5px;
+}
+
+.phone_form_close {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.phone_form_title {
+    font-size: 30px;
+    height: 20px;
+    margin-top: -10px;
+}
+
+.phone_form_undertitle {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
 .header_top {
     display: flex;
     justify-content: space-around;
