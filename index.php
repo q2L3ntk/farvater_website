@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FARVATER - Серверные услуги</title>
 
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/style/main.css">
+    <link rel="stylesheet" href="/assets/css/media/main-media.css">
 
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="/assets/js/index.js"></script>
+    <script src="/assets/js/animate/index-animate.js"></script>
+    <script src="/assets/js/path/index-path.js"></script>
 </head>
 <body>
     <div class="search_view_hide">
