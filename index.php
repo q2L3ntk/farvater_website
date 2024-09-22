@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FARVATER - Серверные услуги</title>
 
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
 
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="/js/index.js"></script>
+    <script src="/assets/js/index.js"></script>
 </head>
 <body>
     <div class="search_view_hide">
         <form class="search_view" action="">
-            <img class="search_pic" src="/images/8-88862_clipart-search-magnifying-glass-clipart-black-and-white.png" alt="search">
+            <img class="search_pic" src="/res/images/8-88862_clipart-search-magnifying-glass-clipart-black-and-white.png" alt="search">
             <input class="search_field" type="text" placeholder="Поиск">
-            <img class="search_pic search_close" src="/images/__close.png" alt="close">
+            <img class="search_pic search_close" src="/res/images/__close.png" alt="close">
         </form>
     </div>
     <div class="full_menu_hide">
         <div class="full_menu">
-            <img class="full_menu_close" src="/images/__close.png" alt="close">
+            <img class="full_menu_close" src="/res/images/__close.png" alt="close">
             <div class="full_menu_header">
-                <img class="header_logo" src="/images/1f3a678a-d8f8-481e-a3e1-5a2b0cc57b30.jpg" alt="logo">
+                <img class="header_logo" src="/res/images/1f3a678a-d8f8-481e-a3e1-5a2b0cc57b30.jpg" alt="logo">
                 <div class="full_menu_header_right">
                     <p>+7 937 525-83-11</p>
                     <button class="header_btn_start btn_hover">
@@ -58,13 +58,13 @@
             </div>
             <div class="full_menu_footer">
                 <p>Набережные Челны</p>
-                <img class="header_search" src="/images/8-88862_clipart-search-magnifying-glass-clipart-black-and-white.png" alt="search">
+                <img class="header_search" src="/res/images/8-88862_clipart-search-magnifying-glass-clipart-black-and-white.png" alt="search">
             </div>
         </div>
     </div>
     <div class="log_form_hide">
         <form action="" class="log_form">
-            <img class="log_form_close cursor" src="/images/__close.png" alt="close">
+            <img class="log_form_close cursor" src="/res/images/__close.png" alt="close">
             <h2 class="log_form_title">Вход в личный кабинет</h2>
             <div class="log_inf">
                 <label for="login" class="log_form_label">Логин</label><br>
@@ -97,8 +97,8 @@
         </div>
         <div class="header_main">
             <section class="header_event">
-                <img class="header_menu" src="/images/icmenu.png" alt="menu">
-                <img class="header_logo" src="/images/1f3a678a-d8f8-481e-a3e1-5a2b0cc57b30.jpg" alt="logo">
+                <img class="header_menu" src="/res/images/icmenu.png" alt="menu">
+                <img class="header_logo" src="/res/images/1f3a678a-d8f8-481e-a3e1-5a2b0cc57b30.jpg" alt="logo">
             </section>
             <nav>
                 <span class="element_hover">УСЛУГИ</span>
@@ -108,7 +108,7 @@
                 <span class="element_hover">ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ</span>
             </nav>
             <section class="header_event">
-                <img class="header_search" src="/images/8-88862_clipart-search-magnifying-glass-clipart-black-and-white.png" alt="search">
+                <img class="header_search" src="/res/images/8-88862_clipart-search-magnifying-glass-clipart-black-and-white.png" alt="search">
                 <button class="header_btn_start btn_hover">
                     <div class="btn_hide"></div>
                     <p class="btn_hide_p">Приступить</p>
@@ -118,7 +118,7 @@
     </header>
     <main>
         <div class="main_view">
-            <img class="main_content_view" src="/images/9f754d2d-1328-4917-9d22-89e0c6768642.jpg" alt="view_content">
+            <img class="main_content_view" src="/res/images/9f754d2d-1328-4917-9d22-89e0c6768642.jpg" alt="view_content">
         </div>
         <div class="main_services">
             <p>Для ваших нужд</p>
@@ -128,19 +128,19 @@
             </div>
             <div class="main_content_services">
                 <section class="main_service section_hover">
-                    <img class="main_service_pic" src="/images/480f34d1-4969-4464-98ac-ebb63d5a7c7a.jpg" alt="iis_pic">
+                    <img class="main_service_pic" src="/res/images/480f34d1-4969-4464-98ac-ebb63d5a7c7a.jpg" alt="iis_pic">
                     <h3 class="title_hover">Веб-сервер (IIS)</h3>
                 </section>
                 <section class="main_service section_hover">
-                    <img class="main_service_pic" src="/images/ccd7d652-ad6f-49c2-a20a-43a5f28975b0.jpg" alt="">
+                    <img class="main_service_pic" src="/res/images/ccd7d652-ad6f-49c2-a20a-43a5f28975b0.jpg" alt="">
                     <h3 class="title_hover">DNS-сервер</h3>
                 </section>
                 <section class="main_service section_hover">
-                    <img class="main_service_pic" src="/images/02df96c8-63e9-4662-96b7-6f61e8ccf0cb.jpg" alt="">
+                    <img class="main_service_pic" src="/res/images/02df96c8-63e9-4662-96b7-6f61e8ccf0cb.jpg" alt="">
                     <h3 class="title_hover">DHCP-сервер</h3> 
                 </section>
                 <section class="main_service section_hover">
-                    <img class="main_service_pic" src="/images/fa12922a-97b4-4420-a2ca-cdaf61bb73d5.jpg" alt="">
+                    <img class="main_service_pic" src="/res/images/fa12922a-97b4-4420-a2ca-cdaf61bb73d5.jpg" alt="">
                     <h3 class="title_hover">Сервер приложений</h3>
                 </section>
             </div>
@@ -176,16 +176,16 @@
             <div class="main_content_promotions">
                 <section class="main_promotion section_hover">
                     <h3 class="title_hover">Название акции</h3>
-                    <img class="promotion" src="/images/397b7c17-b73c-49f2-aed7-2ab965b87017.jpg" alt="promotion">
+                    <img class="promotion" src="/res/images/397b7c17-b73c-49f2-aed7-2ab965b87017.jpg" alt="promotion">
                 </section>
                 <section class="main_promotion section_hover">
                     <h3 class="title_hover">Название акции</h3>
-                    <img class="promotion" src="/images/397b7c17-b73c-49f2-aed7-2ab965b87017.jpg" alt="promotion">
+                    <img class="promotion" src="/res/images/397b7c17-b73c-49f2-aed7-2ab965b87017.jpg" alt="promotion">
                 </section>
             </div>
         </div>
         <div class="main_description">
-            <img class="main_description_pic" src="/images/a712baa3b9d750738bbe4f358c5dfae4.jpg" alt="pic">
+            <img class="main_description_pic" src="/res/images/a712baa3b9d750738bbe4f358c5dfae4.jpg" alt="pic">
             <div class="main_content_description">
                 <p>О компании</p>
                 <h2 class="main_description_title">Компания "FARVATER Group"</h2>
@@ -241,7 +241,7 @@
                     <div class="btn_hide"></div>
                 </button>
             </form>
-            <img class="main_form_pic" src="/images/_6rsfgy5crojsmlcumtaksx1te4.jpeg" alt="form_pic">
+            <img class="main_form_pic" src="/res/images/_6rsfgy5crojsmlcumtaksx1te4.jpeg" alt="form_pic">
         </div>
     </main>
     <footer>
