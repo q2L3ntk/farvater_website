@@ -8,9 +8,15 @@ $(document).ready(function() {
 
     $(".header_search").click(function() {
         $(".search_view_hide").slideDown("fast")
+        $("header").css("opacity", "0.5")
+        $("main").css("opacity", "0.5")
+        $("footer").css("opacity", "0.5")
     })
     $(".search_close").click(function() {
         $(".search_view_hide").slideUp("fast")
+        $("header").css("opacity", "1")
+        $("main").css("opacity", "1")
+        $("footer").css("opacity", "1")
     })
     $(".search_field").focus(function() {
         $(this).css("outline", "0")
