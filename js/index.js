@@ -55,4 +55,32 @@ $(document).ready(function() {
         $(".full_menu_first").hide()
         $(".full_menu_second").hide()
     })
+
+    $(".login_start").click(function() {
+        $(".log_form_hide").show("fast")
+        $("header").css("opacity", "0.5")
+        $("main").css("opacity", "0.5")
+        $("footer").css("opacity", "0.5")
+    })
+    $(".log_form_close").click(function() {
+        $(".log_form_hide").hide("fast")
+        $("header").css("opacity", "1")
+        $("main").css("opacity", "1")
+        $("footer").css("opacity", "1")
+    })
+
+    $(".btn_hover_log").mouseenter(function() {
+        $(".log_form_btn_hide").show("fast")
+    })
+    $(".btn_hover_log").mouseleave(function() {
+        $(".log_form_btn_hide").hide("fast")
+    })
+    $(".btn_hover_reg").mouseenter(function() {
+        $(".reg_form_btn_hide").show("fast")
+        $(".reg_form_btn_hide_p").css("color", "white")
+    })
+    $(".btn_hover_reg").mouseleave(function() {
+        $(".reg_form_btn_hide").hide("fast")
+        $(".reg_form_btn_hide_p").css("color", "blueviolet")
+    })
 })

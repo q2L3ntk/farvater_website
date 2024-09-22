@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/main.css">
 
     <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="/js/index.js"></script>
 </head>
 <body>
     <div class="search_view_hide">
@@ -61,11 +62,38 @@
             </div>
         </div>
     </div>
+    <div class="log_form_hide">
+        <form action="" class="log_form">
+            <img class="log_form_close cursor" src="/images/__close.png" alt="close">
+            <h2 class="log_form_title">Вход в личный кабинет</h2>
+            <div class="log_inf">
+                <label for="login" class="log_form_label">Логин</label><br>
+                <input type="text" name="login" class="log_form_data"><br>
+            </div>
+            <div class="log_inf">
+                <label for="password" class="log_form_label">Пароль</label><br>
+                <input type="password" name="password" class="log_form_data"><br>
+            </div>
+            <div class="checkbox_log_form">
+                <input type="checkbox" class="main_request_checkbox"><p>Запомнить меня</p>
+            </div>
+            <div class="btn_choice">
+                <button class="form_btn_log btn_hover_log cursor">
+                    <div class="log_form_btn_hide"></div>
+                    <p class="log_form_btn_hide_p">Войти</p>
+                </button>
+                <button class="form_btn_reg btn_hover_reg cursor">
+                    <div class="reg_form_btn_hide"></div>
+                    <p class="reg_form_btn_hide_p">Регистрация</p>
+                </button>
+            </div>
+        </form>
+    </div>
     <header>
         <div class="header_top">
             <p>+7 937 525-83-11</p>
             <p>Набережные Челны</p>
-            <p class="element_hover">Войти</p>
+            <p class="element_hover login_start">Войти</p>
         </div>
         <div class="header_main">
             <section class="header_event">
@@ -266,6 +294,5 @@
             </div>
         </div>
     </footer>
-    <script src="/js/index.js"></script>
 </body>
 </html>

@@ -12,7 +12,7 @@ a {
     text-decoration: none;
 }
 
-.element_hover, .btn_hover, .title_hover, .main_service_pic, .header_search, .search_close, .header_menu, .full_menu_close, .full_menu_p {
+.element_hover, .btn_hover, .title_hover, .main_service_pic, .header_search, .search_close, .header_menu, .full_menu_close, .full_menu_p, .cursor {
     cursor: pointer;
 }
 
@@ -143,12 +143,116 @@ a {
     margin-bottom: 20px;
 }
 
+.log_form_hide {
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    padding-inline: 37.5%;
+    padding-top: 15%;
+    z-index: 1;
+}
+
+.log_form {
+    background-color: white;
+    padding-inline: 30px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+.log_form_close {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+}
+
+.log_form_title {
+    font-size: 30px;
+    height: 20px;
+    margin-top: -10px;
+}
+
+.log_form_data {
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'JetBrains Mono';
+}
+
+.checkbox_log_form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn_choice {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_btn_log {
+    background-color: blueviolet;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px solid white;
+}
+
+.form_btn_reg {
+    background-color: white;
+    color: blueviolet;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid blueviolet;
+}
+
+.btn_hover_log, .btn_hover_reg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log_form_btn_hide {
+    display: none;
+    position: absolute;
+    padding-inline: 6px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 118px;
+    height: 38px;
+    background-color: rgb(190, 120, 255);
+    border-radius: 5px;
+}
+
+.log_form_btn_hide_p, .reg_form_btn_hide_p {
+    z-index: 1;
+}
+
+.reg_form_btn_hide {
+    display: none;
+    position: absolute;
+    padding-inline: 6px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 118px;
+    height: 38px;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
 .header_top {
     display: flex;
     justify-content: space-around;
 }
 
-a, p, span, .header_btn_start, h2, h3, .main_btn_description, .footer_news, .search_field {
+a, p, span, .header_btn_start, h2, h3, .main_btn_description, .footer_news, .search_field, .log_form_label {
     font-family: 'JetBrains Mono';
 }
 
