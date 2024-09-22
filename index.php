@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/assets/css/style/main.css">
     <link rel="stylesheet" href="/assets/css/media/main-media.css">
 
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="/assets/modules/jquery/jquery-latest.js"></script>
     <script src="/assets/js/animate/index-animate.js"></script>
     <script src="/assets/js/path/index-path.js"></script>
 </head>
