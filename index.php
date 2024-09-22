@@ -100,7 +100,7 @@
         <div class="header_main">
             <section class="header_event">
                 <img class="header_menu" src="/res/images/icmenu.png" alt="menu">
-                <img class="header_logo" src="/res/images/1f3a678a-d8f8-481e-a3e1-5a2b0cc57b30.jpg" alt="logo">
+                <img class="header_logo cursor" src="/res/images/1f3a678a-d8f8-481e-a3e1-5a2b0cc57b30.jpg" alt="logo">
             </section>
             <nav>
                 <span class="element_hover">УСЛУГИ</span>
