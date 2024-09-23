@@ -1,0 +1,66 @@
+@media (max-width: 1200px) {
+    header {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .main_description_pic {
+        width: 500px;
+        height: 300px;
+    }
+
+    .about_comp {
+        font-size: 12px;
+    }
+
+    .main_content_news {
+        gap: 40px;
+    }
+
+    .examp {
+        width: 240px;
+        height: 200px;
+    }
+
+    .main_form_pic {
+        width: 400px;
+        height: 350px;
+    }
+
+    .main_request {
+        gap: 60px;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .footer_down_inf {
+        gap: 40px;
+        margin-left: 70px;
+    }
+
+    .footer_down_shortcut {
+        width: 1000px;
+        gap: 60px;
+    }
+}
+
+@media (max-width: 992px) {
+    
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 480px) {
+    
+}
+
+@media (max-width: 320px) {
+    
+}

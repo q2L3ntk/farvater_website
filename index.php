@@ -213,7 +213,7 @@
             <div class="main_content_description">
                 <p>О компании</p>
                 <h2 class="main_description_title">Компания "FARVATER Group"</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos velit, doloremque ducimus deserunt saepe veniam nihil modi, deleniti voluptas temporibus magni labore voluptatum iste, earum minus voluptatem necessitatibus eum nemo!</p>
+                <p class="about_comp">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos velit, doloremque ducimus deserunt saepe veniam nihil modi, deleniti voluptas temporibus magni labore voluptatum iste, earum minus voluptatem necessitatibus eum nemo!</p>
                 <button class="main_btn_description btn_hover">
                     <p class="btn_hide_p">Подробнее</p>
                     <div class="btn_hide"></div>
