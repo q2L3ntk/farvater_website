@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/resources/css/media/main-media.css">
 
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="/resources/js/index-animate.js"></script>
+    <script src="/resources/js/index.js"></script>
 </head>
 <body>
     <div class="search_view_hide">
