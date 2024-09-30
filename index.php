@@ -1,4 +1,7 @@
 <?php
+    require 'database/Harbour.php';
+    require 'app/Models/Guest.php';
+
     use Database\Harbour;
     use Models\Guest;
 

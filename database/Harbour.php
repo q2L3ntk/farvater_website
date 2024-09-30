@@ -1,22 +1,22 @@
-<?php
+<?php 
     namespace Database;
 
     use mysqli;
 
     class Harbour {
-        public readonly string $databaseHost;
-        public readonly string $databaseUser;
-        public readonly string $databasePassword;
-        public readonly string $databaseName;
+        public $databaseHost;
+        public $databaseUser;
+        public $databasePassword;
+        public $databaseName;
 
         public function databaseConnect() {
-            $config = require_once('database/config');
+            $config = require_once('database/config.php');
 
             return new mysqli(
-            $this -> databaseHost = $config['localhost'],
-            $this -> databaseUser = $config['root'],
-            $this -> databasePassword = $config[''],
-            $this -> databaseName = $config['harbour']
+            $this -> databaseHost = $config[0],
+            $this -> databaseUser = $config[1],
+            $this -> databasePassword = $config[2],
+            $this -> databaseName = $config[3]
             );
         }
     }
