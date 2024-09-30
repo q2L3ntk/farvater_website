@@ -1,7 +1,7 @@
 <?php
     return [
-        "localhost",
-        "root",
-        "",
-        "harbour"
+        'host' => "localhost",
+        'user' => "root",
+        'password' => "",
+        'name' => "harbour"
     ];

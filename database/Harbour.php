@@ -4,19 +4,19 @@
     use mysqli;
 
     class Harbour {
-        public $databaseHost;
-        public $databaseUser;
-        public $databasePassword;
-        public $databaseName;
+        public string $databaseHost;
+        public string $databaseUser;
+        public string $databasePassword;
+        public string $databaseName;
 
         public function databaseConnect() {
             $config = require_once('database/config.php');
 
             return new mysqli(
-            $this -> databaseHost = $config[0],
-            $this -> databaseUser = $config[1],
-            $this -> databasePassword = $config[2],
-            $this -> databaseName = $config[3]
+            $this -> databaseHost = $config['host'],
+            $this -> databaseUser = $config['user'],
+            $this -> databasePassword = $config['password'],
+            $this -> databaseName = $config['name']
             );
         }
     }
