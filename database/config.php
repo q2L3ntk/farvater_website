@@ -4,5 +4,4 @@
         'user' => "root",
         'password' => "",
         'name' => "harbour"
-        
     ];
