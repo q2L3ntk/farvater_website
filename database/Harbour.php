@@ -13,10 +13,10 @@
             $config = require_once('database/config.php');
 
             return new mysqli(
-            $this -> databaseHost = $config['host'],
-            $this -> databaseUser = $config['user'],
-            $this -> databasePassword = $config['password'],
-            $this -> databaseName = $config['name']
+                $this -> databaseHost = $config['host'],
+                $this -> databaseUser = $config['user'],
+                $this -> databasePassword = $config['password'],
+                $this -> databaseName = $config['name']
             );
         }
     }
