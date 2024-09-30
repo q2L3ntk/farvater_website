@@ -1,12 +1,13 @@
 <?php
-    class Guest {
-        public bool $newComer;
-        public int $sessionNumber;
-        
-        public function sessionGuestData() {
-            session_start();
-            $_SESSION['data'] = ['guest', $this -> newComer, $this -> sessionNumber];
+    namespace Models;
 
-            return $_SESSION['data'];
+    class Guest {
+        public readonly bool $newComer = true;
+        public readonly int $sessionNumber = -1;
+        
+        public function sessionGuestData($sessionName) {
+            $sessionData = [$sessionName, $this -> newComer, $this -> sessionNumber];
+
+            return $sessionData;
         }
     }

@@ -9,12 +9,14 @@
         public readonly string $databasePassword;
         public readonly string $databaseName;
 
-        public function databaseConnect(string $dbHost, string $dbUser, string $dbPass, string $dbName) {
+        public function databaseConnect() {
+            $config = require_once('database/config');
+
             return new mysqli(
-            $this -> databaseHost = $dbHost,
-            $this -> databaseUser = $dbUser,
-            $this -> databasePassword = $dbPass,
-            $this -> databaseName = $dbName
+            $this -> databaseHost = $config['localhost'],
+            $this -> databaseUser = $config['root'],
+            $this -> databasePassword = $config[''],
+            $this -> databaseName = $config['harbour']
             );
         }
     }

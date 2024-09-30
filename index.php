@@ -1,14 +1,16 @@
 <?php
-    require 'database/Harbour.php';
-    require 'app/Models/Guest.php';
+    use Database\Harbour;
+    use Models\Guest;
+
+    session_start();
+    $_SESSION['name'] = "guest";
+    $sn = $_SESSION['name'];
 
     $database = new Harbour;
-    $databaseCheck = $database -> databaseConnect("localhost", "root", "", "harbour");
+    $databaseCheck = $database -> databaseConnect();
 
     $guest = new Guest;
-    $guest -> newComer = true;
-    $guest -> sessionNumber = -1;
-    $guestData = $guest -> sessionGuestData();
+    $guestData = $guest -> sessionGuestData($sn);
 
     if (isset($databaseCheck)) {
         header('Location: /resources/views/main.php'); 
