@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="/resources/css/media/main-media.css">
 
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="/resources/js/index.js"></script>
+    <script src="/resources/js/animate/index-animate.js"></script>
+    <script src="/resources/js/path/index-path.js"></script>
 </head>
 <body>
     <div class="search_view_hide">
@@ -124,7 +125,7 @@
                 <img class="header_logo cursor" src="/resources/images/1f3a678a-d8f8-481e-a3e1-5a2b0cc57b30.jpg" alt="logo">
             </section>
             <nav>
-                <span class="element_hover">УСЛУГИ</span>
+                <span class="element_hover goto_services">УСЛУГИ</span>
                 <span class="element_hover">НОВОСТИ</span>
                 <span class="element_hover">ОБРАТНАЯ СВЯЗЬ</span>
                 <span class="element_hover">ОТЗЫВЫ</span>
