@@ -20,7 +20,7 @@ $(document).ready(() => {
         $("footer").css("opacity", "1")
         $(".full_menu").css("opacity", "1")
     })
-    $(".search_field").focus(() => {
+    $(".search_field").focus(function() {
         $(this).css("outline", "0")
     })
 
