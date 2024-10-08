@@ -1,5 +1,5 @@
 <?php 
-    namespace Database;
+    namespace Server\Database;
 
     use mysqli;
 
